@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#block1{
+    width:100px;
+    height:100px;
+    top:0px;
+    left:0px;
+    position: absolute;
+    background-color: red;
+}
+
+#block2{
+    width:100px;
+    height:100px;
+    top:0px;
+    left:200px;
+    position: absolute;
+    background-color: blue;
+}
