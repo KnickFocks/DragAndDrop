@@ -1,5 +1,5 @@
 #DragAndDrop
-'DragAndDrop' allows you to easily attach drag and drop events to a div id. Set up ‘DragAndDrop’ for a single id or an array of ids. Change the options to adjust the animation, callback events, and more. Works on both devices and desktops. 
+'DragAndDrop' allows you to easily attach drag and drop events to a div id. Set up ‘DragAndDrop’ for a single id or an array of ids. Change the options to adjust the animation, callback events, and more. Works on devices and desktops. 
 
 #####Create options for your DragAndDrop Class
 ```javascript
