@@ -1,5 +1,5 @@
 #DragAndDrop
-'DragAndDrop' allows you to easily attach drag and drop events to a div id. Set up ‘DragAndDrop’ for a single id or an array of ids. Change the options to adjust the animation, callback events, and more.
+'DragAndDrop' allows you to easily attach drag and drop events to a div id. Set up ‘DragAndDrop’ for a single id or an array of ids. Change the options to adjust the animation, callback events, and more. Works on both devices and desktops. 
 
 #####Create options for your DragAndDrop Class
 ```javascript
@@ -24,8 +24,8 @@ var options = {
 // dragMoveEvent: event callback, use null if you don’t want an event returned
 // dragEndEvent: event callback, use null if you don’t want an event returned
 // elementSettings:
-    // centerToElement:true | false
-    // animate:true | false // animates to coordinates if set to true
+    // centerToElement: true | false
+    // animate: true | false // animates to coordinates if set to true
     // animateDuration: string // ‘100ms’, ‘1s’, etc.
     // animateEase: string // ‘linear’, ’ease’, ’ease-in’, ’ease-out’, ’ease-in-out’, ’step-start’, ’step-end’, ’steps(int,start|end)’, ’cubic-bezier(n,n,n,n)’, ’initial’, ’inherit’;
     // animateDelay: string // ‘0’, ‘100ms’, ‘1s’, etc.
