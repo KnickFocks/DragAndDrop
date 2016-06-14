@@ -45,4 +45,3 @@ myDrag.init();
 #####Remove reference:
 ```javascript
 myDrag.remove();
-```

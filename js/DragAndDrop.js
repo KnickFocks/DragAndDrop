@@ -3,6 +3,7 @@ var DragAndDrop = function(opt){
 	var self = this;
     self.prefix, self.el, self.options = opt;
 	self.init = function(){
+		self.getPrefix();
         for(var i = 0; i < self.options.id.length; i++){
             el = document.getElementById(self.options.id[i]);
             if(self.isTouchDevice()){
@@ -47,9 +48,6 @@ var DragAndDrop = function(opt){
         }
 
         if(self.options.elementSettings.animate){
-            if(self.prefix == undefined){
-                self.getPrefix();
-            }
             el.style.setProperty(self.prefix + 'transition', 'left ' + self.options.elementSettings.animateDuration + ' ' + self.options.elementSettings.animateEase + ' ' + self.options.elementSettings.animateDelay + ', top ' + self.options.elementSettings.animateDuration + ' ' + self.options.elementSettings.animateEase + ' ' + self.options.elementSettings.animateDelay);
         }
 
