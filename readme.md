@@ -1,7 +1,7 @@
-#DragAndDrop
+# DragAndDrop
 'DragAndDrop' allows you to easily attach drag and drop events to a div id. Set up ‘DragAndDrop’ for a single id or an array of ids. Change the options to adjust the animation, callback events, and more. Works on devices and desktops. 
 
-#####Create options for your DragAndDrop Class
+##### Create options for your DragAndDrop Class
 ```javascript
 var options = {
     id:['block1', 'block2'],
@@ -32,16 +32,16 @@ var options = {
 // zIndex: zIndex to accommodate overlapping issues when multiple DragAndDrop ids used.
 ```
 
-#####Create a new DragAndDrop instance while passing your options
+##### Create a new DragAndDrop instance while passing your options
 ```javascript
 var myDrag = new DragAndDrop(options);
 ```
 
-#####Initialize instance:
+##### Initialize instance:
 ```javascript
 myDrag.init();
 ```
 
-#####Remove reference:
+##### Remove reference:
 ```javascript
 myDrag.remove();
